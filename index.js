@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const bodyparser = require('body-parser');
 const morgan = require('morgan');
-const debug = require('debug')('app');
 
 
 const app = express();
@@ -71,5 +70,5 @@ app.get('/',(req,res)=>{
 
 
 app.listen(port,()=>{
-    debug(`listening on port : 3000`);
+    
 })
