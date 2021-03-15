@@ -58,6 +58,8 @@ var data = [{
     `To furnish rural India and territorial organizations with admittance to the expert assets of the
     foundations of advanced education, particularly those that have gained literary greatness in the
     field of science, designing and innovation, and management.`,
+    
+    
   
 ]
 }
