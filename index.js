@@ -66,7 +66,7 @@ var data = [{
 ]
 
 app.get('/',(req,res)=>{
-    res.render(path.join(__dirname,'public','test.ejs'),{title:"myapp",data:data});
+    res.render(path.join(__dirname,'public','home.ejs'),{title:"myapp",data:data});
 });
 
 

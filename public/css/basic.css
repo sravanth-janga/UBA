@@ -1,17 +1,33 @@
 body,html {
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
-    height: 100%;
-    
+    height: 100%;    
+}
+.testimonial{
+  background-color: #f9f3f3;
+}
+.pagetitle{
+  color: orange;
+  font-weight: bolder;
+}
+.hindiname{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: dimgray;
+}
+.newshead{
+  background-color: burlywood;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
 }
 .footer{
   width: 100%;
-  background-color: cadetblue;
-  margin: auto;
+  /* background-color: #edeef7; */
+  background-color: #f0a500;
+  height: auto;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 20px;
   padding: 5px;
 }
 .decorline{
@@ -28,10 +44,14 @@ body,html {
     height: 300px
 }
 .card{
-  background-color: cadetblue;
-  height: 90vh;
-  width: 80vw;
-
+  height: auto;
+  background: no-repeat center center;
+  background-color: ivory;
+}
+.eventsec{
+  color: black;
+  font-family: inherit;
+  font-weight: bolder;
 }
 .thecard {
     position: absolute;
@@ -44,13 +64,16 @@ body,html {
 .thecard:hover {
     transform: rotateY(180deg)
 }
+hr{
+  border-top: 5px solid orange;
 
+}
 .thefront {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: hidden;
-    background: #eff7e1;
+    background: #8f4f4f;
     color: #312c51;
     border-radius: 10px;
     cursor: pointer;
@@ -111,26 +134,26 @@ body,html {
   }
   
   .navbar-light .navbar-brand {
-    color: #fff;
+    color: #16025a;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
   }
   #dehover:hover{
-    color: whitesmoke;
+    color: #16025a;
   }
 
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
+    color: #16025a;
   }
   
   .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #16025a;
   }
   
   .navbar-toggler {
-    background: #fff;
+    background: #16025a;
   }
   
   .navbar-nav {
@@ -142,7 +165,7 @@ body,html {
   }
   
   .nav-link.active,.nav-link:focus{
-    color: #fff;
+    color:#16025a;
   }
   
   .navbar-toggler {
@@ -172,9 +195,7 @@ body,html {
     border-radius:40px;
     background:tomato;
   }
-  .splide__arrows{
-    display: none;
-  }
+  
 
   .link-area a
   {
@@ -185,8 +206,8 @@ body,html {
 
 .footertxt{
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  color: black;
+  font-weight: lighter;
+  color: gray;
 }
 
   .section{
